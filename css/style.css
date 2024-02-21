@@ -148,4 +148,18 @@ img {
         margin: 0 auto;
     }
 
+    .lessons {
+        padding-bottom: 3rem;
+    }
+
+    .why-us {
+        background-color: #222222;
+        margin-bottom: 0;
+        padding: 3rem;
+    }
+
+    .steps {
+        margin: 0;
+    }
+
 }
