@@ -135,6 +135,17 @@ img {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 480px) {
+    .row {
+        flex-wrap: wrap;
+        row-gap: 60px;
+    }
+
+    .lessons .col, .steps .col, .why-us .col-left, .why-us .col-right  {
+        width: 80%;
+        margin: 0 auto;
+    }
 
 }
